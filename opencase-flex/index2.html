@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1361867_ap2jsalowfn.css">
+    <link rel="stylesheet" href="css/index2.css">
+    <script>
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth || document.body.clientWidth;
+            ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+</head>
+
+<body>
+    <section class="wrapper">
+        <!-- <header>
+              <a class="hot" href="">热点</a>
+              <a class="follow" href="">关注</a>
+         </header> -->
+        <nav>
+            <a href="" class="current">我的</a>
+            <a href="">发现</a>
+            <a href="">云村</a>
+            <a href="">视频</a>
+        </nav>
+
+        <main>
+            <!-- banner 区域 -->
+            <section class="banner"></section>
+            <h3>热门推荐</h3>
+            <ul class="lists">
+                <li>
+                    <img src="images/1.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/2.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/3.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/4.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/5.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/6.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/7.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/8.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/9.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/10.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/4.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+                <li>
+                    <img src="images/5.gif" alt="">
+                    <p>海绵宝宝</p>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <a href="">
+                <span class="iconfont icon-xihuan"></span>
+                <span>推荐</span>
+            </a>
+            <a href="">
+                <span class="iconfont icon-icon-"></span>
+                <span>收藏</span>
+            </a>
+            <a href="">
+                <span class="iconfont icon-paihangbang1"></span>
+                <span>排行</span>
+            </a>
+            <a href="">
+                <span class="iconfont icon-ziyuan last"></span>
+                <span>电台</span>
+            </a>
+        </footer>
+    </section>
+</body>
+
+</html>
